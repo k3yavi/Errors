@@ -1,4 +1,5 @@
-* dropEst
+* [dropEst](https://github.com/hms-dbmi/dropEst)
+    * Must install `install.packages(c("Rcpp","RcppArmadillo", "RInside", "Matrix", "fitdistrplus"))` in R and check if `R.home()` path is same as you specify to cmake
 ```
 CMake Error at /home/linuxbrew/.linuxbrew/Cellar/cmake/3.8.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
   Could NOT find R (missing: RCPP_ARM_INCLUDE_DIR)
