@@ -12,3 +12,7 @@ icu.cpp:(.text+0x241): undefined reference to `u_isspace_54'
 icu.cpp:(.text+0x325): undefined reference to `u_isspace_54'
 icu.cpp:(.text+0x348): undefined reference to `u_digit_54'
 ```
+
+* [Salmon](https://github.com/COMBINE-lab/salmon)
+    * Had old build of Salmon but changed gcc after that.
+    * Must delete external folder too since some of the older dependencies have been compiled using previous compiler.
